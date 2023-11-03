@@ -3,7 +3,7 @@ beautifulsoup4==4.9.3
 celery==5.2.7
 degoogle==1.0.1
 discord-webhook==0.14.0
-Django==3.2.4
+Django==3.2.23
 django-ace==1.0.11
 django-celery-beat==2.2.1
 django-login-required-middleware==0.6.1
@@ -34,3 +34,4 @@ whatportis==0.8.2
 weasyprint==53.3
 wafw00f
 asyncwhois
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
